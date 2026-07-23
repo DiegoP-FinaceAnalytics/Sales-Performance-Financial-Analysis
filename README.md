@@ -4,6 +4,10 @@ An end-to-end finance and business analytics project that transforms raw retail 
 
 The solution evaluates sales growth, profitability, customer performance, product categories, geographic regions, shipping activity, and operating trends from 2014 through 2017. It was designed to demonstrate both technical execution and the ability to translate historical data into practical business recommendations.
 
+## Scenario Disclosure
+
+This portfolio project uses a public sample dataset within a fictional retail business scenario. The company, management assignment, and strategic context are hypothetical, while all calculations, findings, and recommendations are derived from the underlying dataset.
+
 ## Dashboard Preview
 
 ### Executive Dashboard
@@ -181,4 +185,3 @@ For the clearest view on a smaller screen, use Excel's full-screen mode and adju
 ## AI-Assisted Development
 
 AI tools supported technical troubleshooting, documentation review, and quality assurance. Database design decisions, KPI definitions, calculations, dashboard outputs, findings, and recommendations were reviewed and validated before inclusion.
-
