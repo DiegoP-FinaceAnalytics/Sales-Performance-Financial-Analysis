@@ -1,2 +1,2 @@
 # Sales-Performance-Financial-Analysis-Dashboard
-Interactive Excel dashboard using SQL and Microsoft Access for sales and financial performance analysis.
+Interactive Excel and Microsoft Access project analyzing sales, profitability, customers, and operational performance.
