@@ -86,14 +86,13 @@ The Consumer segment contributed 50.56% of total sales and was the largest segme
 5. **Add customer profitability to account reviews.** Evaluate major customers using sales, profit, margin, order frequency, and discount behavior rather than ranking accounts only by revenue.
 
 ## Analytical Architecture
-
 ```mermaid
 flowchart TD
-    A["Raw transaction data"] --> B["Microsoft Access database"]
-    B --> C["SQL queries and KPI logic"]
-    C --> D["Power Query connection"]
-    D --> E["Excel Data Model and PivotTables"]
-    E --> F["Interactive dashboards and business analysis"]
+    A["Raw Transaction Data"] --> B["Microsoft Access<br/>Database"]
+    B --> C["SQL Queries<br/>and KPI Logic"]
+    C --> D["Power Query<br/>Connection"]
+    D --> E["Excel Data Model<br/>and PivotTables"]
+    E --> F["Interactive Dashboards<br/>and Business Analysis"]
 ```
 
 ## Data Model
