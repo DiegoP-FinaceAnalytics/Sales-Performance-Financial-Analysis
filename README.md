@@ -2,7 +2,7 @@
 
 An end-to-end finance and business analytics project that transforms raw retail transactions into a normalized Microsoft Access database, reusable SQL analysis, and two connected interactive Excel dashboards.
 
-The solution evaluates sales growth, profitability, customer performance, product categories, geographic regions, shipping activity, and operating trends from 2014 through 2017. It was designed to demonstrate both technical execution and the ability to translate historical data into practical business recommendations.
+The solution evaluates historical sales performance, profitability, customer behavior, product categories, regional performance, shipping activity, and operational trends from 2014 through 2017. It demonstrates how raw transactional data can be transformed into reliable business insights through database design, SQL analysis, and interactive dashboard reporting.
 
 ## Scenario Disclosure
 
