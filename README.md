@@ -4,9 +4,13 @@ An end-to-end finance and business analytics project that transforms raw retail 
 
 The solution evaluates historical sales performance, profitability, customer behavior, product categories, regional performance, shipping activity, and operational trends from 2014 through 2017. It demonstrates how raw transactional data can be transformed into reliable business insights through database design, SQL analysis, and interactive dashboard reporting.
 
+---
+
 ## Scenario Disclosure
 
 This portfolio project uses a public sample dataset within a fictional retail business scenario. The company, management assignment, and strategic context are hypothetical, while all calculations, findings, and recommendations are derived from the underlying dataset.
+
+---
 
 ## Dashboard Preview
 
@@ -14,15 +18,21 @@ This portfolio project uses a public sample dataset within a fictional retail bu
 
 ![Executive Dashboard](Images/executive-dashboard.png)
 
+---
+
 ### Customer & Operations Dashboard
 
 ![Customer and Operations Dashboard](Images/customer-operations-dashboard.png)
+
+---
 
 ## Executive Summary
 
 The dataset contains 9,994 transaction lines representing 5,009 unique orders. Across the four-year period, the business generated $2.30 million in sales and $286,397 in profit, producing an overall profit margin of 12.47%.
 
 Performance strengthened considerably after a small sales decline in 2015. Sales increased 29.47% in 2016 and another 20.36% in 2017, making 2017 the strongest year for both sales and profit. The analysis also identified material differences in profitability across product categories, regions, customers, and discount levels. Technology and Office Supplies produced strong margins, while Furniture generated substantial revenue but only a 2.49% margin.
+
+---
 
 ## Business Objective
 
@@ -34,6 +44,8 @@ The objective was to create a reliable and interactive analytical solution that 
 - Identify areas of strong performance and possible margin pressure.
 - Support evidence-based decisions through transparent and validated calculations.
 
+---
+
 ## Core KPIs
 
 | KPI | Validated Result |
@@ -44,6 +56,8 @@ The objective was to create a reliable and interactive analytical solution that 
 | Unique Orders | 5,009 |
 | Average Order Value | $458.61 |
 | Average Shipping Time | 3.96 days |
+
+---
 
 ## Key Findings
 
@@ -73,6 +87,8 @@ Sean Miller was the highest-sales customer at $25,043, but the account generated
 
 The Consumer segment contributed 50.56% of total sales and was the largest segment by revenue. However, Home Office produced the highest segment margin at 14.03%, compared with 13.03% for Corporate and 11.55% for Consumer.
 
+---
+
 ## Business Recommendations
 
 1. **Prioritize profitable growth within Furniture.** Review Tables and Bookcases by product, customer, region, and discount level to determine where losses are concentrated. Management should evaluate pricing and cost drivers before expanding sales volume in these subcategories.
@@ -85,7 +101,10 @@ The Consumer segment contributed 50.56% of total sales and was the largest segme
 
 5. **Add customer profitability to account reviews.** Evaluate major customers using sales, profit, margin, order frequency, and discount behavior rather than ranking accounts only by revenue.
 
+---
+
 ## Analytical Architecture
+
 ```mermaid
 flowchart TD
     A["Raw Transaction Data"] --> B["Microsoft Access<br/>Database"]
@@ -94,6 +113,8 @@ flowchart TD
     D --> E["Excel Data Model<br/>and PivotTables"]
     E --> F["Interactive Dashboards<br/>and Business Analysis"]
 ```
+
+---
 
 ## Data Model
 
@@ -109,6 +130,8 @@ The raw source was reorganized into a relational structure to improve calculatio
 
 A surrogate `ProductKey` was introduced because the original `ProductID` was not sufficiently unique by itself. Primary keys, foreign keys, and enforced relationships were used to maintain referential integrity.
 
+---
+
 ## Dashboard Features
 
 The workbook contains two synchronized dashboard pages:
@@ -117,6 +140,8 @@ The workbook contains two synchronized dashboard pages:
 - **Customer & Operations Dashboard:** Average Shipping Time, Top 10 Customers, customer segment performance, and shipping-mode performance.
 
 Seven slicers—Year, Quarter, Month, Category, Region, Segment, and Ship Mode—are connected across all dashboard PivotTables and charts.
+
+---
 
 ## Validation and Quality Control
 
@@ -134,6 +159,8 @@ Key controls included:
 - Testing all seven slicers across all 11 connected PivotTables.
 - Running a complete Power Query refresh and checking for formula or connection errors.
 
+---
+
 ## Tools and Skills Demonstrated
 
 - Microsoft Access database development
@@ -144,6 +171,8 @@ Key controls included:
 - PivotCharts, KPI cards, slicers, and interactive dashboard design
 - Financial KPI development and reconciliation
 - Business interpretation, recommendations, and technical documentation
+
+---
 
 ## Repository Structure
 
@@ -166,6 +195,8 @@ Sales-Performance-Financial-Analysis/
 └── README.md
 ```
 
+---
+
 ## How to Use the Dashboard
 
 1. Download the Excel workbook from the `Dashboard` folder.
@@ -176,6 +207,8 @@ Sales-Performance-Financial-Analysis/
 
 For the clearest view on a smaller screen, use Excel's full-screen mode and adjust the zoom level as needed.
 
+---
+
 ## Limitations
 
 - The analysis is descriptive and based on historical transactions from 2014–2017.
@@ -184,9 +217,13 @@ For the clearest view on a smaller screen, use Excel's full-screen mode and adju
 - Forecasting, predictive modeling, customer lifetime value, and inventory optimization are outside the current project scope.
 - The source is a public sample dataset and does not represent confidential company information.
 
+---
+
 ## AI-Assisted Development
 
 AI tools supported technical troubleshooting, documentation review, and quality assurance. Database design decisions, KPI definitions, calculations, dashboard outputs, findings, and recommendations were reviewed and validated before inclusion.
+
+---
 
 ## Disclaimer
 
