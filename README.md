@@ -187,3 +187,7 @@ For the clearest view on a smaller screen, use Excel's full-screen mode and adju
 ## AI-Assisted Development
 
 AI tools supported technical troubleshooting, documentation review, and quality assurance. Database design decisions, KPI definitions, calculations, dashboard outputs, findings, and recommendations were reviewed and validated before inclusion.
+
+## Disclaimer
+
+Crestline Retail Group is a fictional organization created for this portfolio project. The project uses a public historical retail dataset for educational and portfolio-demonstration purposes. The analysis does not represent the sales, profitability, customers, products, operations, business decisions, or financial performance of a real company.
