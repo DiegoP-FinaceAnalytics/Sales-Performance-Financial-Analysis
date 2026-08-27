@@ -161,6 +161,7 @@ Sales-Performance-Financial-Analysis/
 ├── Raw Data/
 │   └── Sample - SuperstoreExercise.csv.xlsx
 ├── SQL/
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
