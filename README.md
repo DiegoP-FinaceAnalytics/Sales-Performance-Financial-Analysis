@@ -1,4 +1,4 @@
-# Sales Performance & Financial Analysis Dashboard
+# Sales Performance & Financial Analysis
 
 An end-to-end finance and business analytics project that transforms raw retail transactions into a normalized Microsoft Access database, reusable SQL analysis, and two connected interactive Excel dashboards.
 
@@ -159,7 +159,7 @@ Sales-Performance-Financial-Analysis/
 │   ├── executive-dashboard.png
 │   └── customer-operations-dashboard.png
 ├── Raw Data/
-│   └── Sample - SuperstoreExercise.csv(1).xlsx
+│   └── Sample - SuperstoreExercise.csv.xlsx
 ├── SQL/
 ├── LICENSE
 └── README.md
