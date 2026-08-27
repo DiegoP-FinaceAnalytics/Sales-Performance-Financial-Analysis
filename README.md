@@ -12,11 +12,11 @@ This portfolio project uses a public sample dataset within a fictional retail bu
 
 ### Executive Dashboard
 
-![Executive Dashboard](images/executive-dashboard.png)
+![Executive Dashboard](Images/executive-dashboard.png)
 
 ### Customer & Operations Dashboard
 
-![Customer and Operations Dashboard](images/customer-operations-dashboard.png)
+![Customer and Operations Dashboard](Images/customer-operations-dashboard.png)
 
 ## Executive Summary
 
@@ -149,23 +149,25 @@ Key controls included:
 
 ```text
 Sales-Performance-Financial-Analysis/
-├── README.md
-├── data/
-│   └── Sample-Superstore-Dataset.xlsx
-├── database/
-│   └── Sales-Performance-Database.accdb
-├── dashboard/
+├── Dashboard/
 │   └── Sales-Performance-Financial-Analysis-Dashboard.xlsx
-├── documentation/
-│   └── Sales-Performance-Financial-Analysis-Report.pdf
-└── images/
-    ├── executive-dashboard.png
-    └── customer-operations-dashboard.png
+├── Database/
+│   └── Sales-Performance-Database.accdb
+├── Executive Report/
+│   └── Crestline_Retail_Group_Executive_Report.pdf
+├── Images/
+│   ├── executive-dashboard.png
+│   └── customer-operations-dashboard.png
+├── Raw Data/
+│   └── Sample - SuperstoreExercise.csv(1).xlsx
+├── SQL/
+├── LICENSE
+└── README.md
 ```
 
 ## How to Use the Dashboard
 
-1. Download the Excel workbook from the `dashboard` folder.
+1. Download the Excel workbook from the `Dashboard` folder.
 2. Open it in the desktop version of Microsoft Excel.
 3. Begin on the `Project Overview` sheet.
 4. Use the two dashboard tabs to review financial, customer, and operational performance.
